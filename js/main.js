@@ -46,7 +46,7 @@ function randomizetext() {
 
   var randomText = getRandomText();
   console.log(randomText);
-  while (randomText.contentt == curContenttext &&randomText.publish== curTitletext) {
+  while (randomText.content == curContenttext &&randomText.publish== curTitletext) {
     randomText = getRandomText();
   }
   document.getElementById("text_content").innerHTML = randomText.content;
